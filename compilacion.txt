@@ -1,0 +1,19 @@
+C/C++ permite compilar los archivos de forma separada. Para compilar ejecutamos en la consola el
+comando:
+
+  g++ -c holamundo.cpp
+  g++ -c programa.cpp
+
+esto genera un nuevo archivo con extensión.o (holamundo.o). El .o no es un ejecutable. Para obtener el
+ejecutable necesitamos linkear todos los archivos que forman el programa y las bibliotecas utilizadas.
+Para linkear los archivos en consola debemos ejecutar:
+
+  g++ holamundo.o programa.o -o nombre_ejecutable
+
+Esto genera el ejecutable con nombre “nombre_ejejcutable”
+
+--
+
+La compilación y linkeo puede hacerse con un solo comando:
+  
+  g++ holamundo.cpp programa.cpp -o nombre_ejecutable
