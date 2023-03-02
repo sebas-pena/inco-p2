@@ -20,7 +20,7 @@ void insertionSort(int arr[], int n) {
 
 int main() {
   int tam = 5;
-  int arr[tam] = { 1, 2, 3, 4, 5 };
+  int arr[tam] = { 9, 2, 4, 4, 1 };
   insertionSort(arr, tam);
   printf("%d - %d - %d - %d - %d", arr[0], arr[1], arr[2], arr[3], arr[4]);
   return 0;
