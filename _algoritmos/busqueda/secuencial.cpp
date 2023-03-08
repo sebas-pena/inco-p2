@@ -1,7 +1,13 @@
 #include <stdio.h>
 
+
+/*
+  En la busqueda secuencial se recorre el arreglo desde el inicio hasta que se encuentra el elemento o se llega al final del arreglo.
+  Una vez que se encuentra el elemento se retorna la posicion en la que se encuentra, si no se encuentra se retorna -1.
+*/
+
 int busquedaSecuencial(int arreglo[], int tope, int elementoABuscar) {
-  int posicion = -1; // -1 indica que no se encontró el elemento
+  int posicion = -1;
 
   for (int i = 0; i < tope; i++) {
     if (arreglo[i] == elementoABuscar) {
