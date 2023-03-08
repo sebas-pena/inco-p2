@@ -1,1 +1,10 @@
+*
+!/**/
+!*.*
 *.exe
+!Makefile
+_laboratorios/1
+_laboratorios/*/solucion/obj/*
+_laboratorios/*/solucion/EntregaTarea*
+_laboratorios/*/solucion/*.txt
+_laboratorios/*/solucion/test/salidas/*
